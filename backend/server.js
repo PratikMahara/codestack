@@ -1,5 +1,10 @@
 const express = require('express');
-const cors = require('cors');
+// Update your CORS configuration
+app.use(cors({
+  origin: 'https://codestack-frontend.onrender.com', // Replace with your actual frontend URL
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type']
+}));
 const contactRoutes = require('./routes/contact');
 
 const app = express();
