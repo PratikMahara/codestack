@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
-app.use('/backend/contact', contactRoutes);
+app.use('https://codestack-backend.onrender.com/contact', contactRoutes);
 
 // 👇 Add this default GET route
 app.get('/', (req, res) => {
