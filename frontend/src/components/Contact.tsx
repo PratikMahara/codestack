@@ -28,7 +28,7 @@ const Contact = () => {
   setIsSubmitting(true);
 
   try {
-    const response = await fetch("https://codestack-backend.onrender.com", {
+    const response = await fetch("https://codestack-backend.onrender.com/backend/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
