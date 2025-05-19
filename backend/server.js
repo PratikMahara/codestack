@@ -9,8 +9,8 @@ const PORT = process.env.PORT || 5000;
 
 app.use(cors({
   origin: [
-    'http://localhost:3000',          
-    'https://your-frontend-domain.com' 
+           
+    'https://codestack-frontend.onrender.com' 
   ],
   methods: ['POST', 'GET', 'OPTIONS'], 
 }));
