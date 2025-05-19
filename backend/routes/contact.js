@@ -6,8 +6,8 @@ const router = express.Router();
 // Enable CORS for this router (adjust origin as needed)
 router.use(cors({
   origin: [
-    'http://localhost:3000',         // Local development
-    'https://your-frontend-domain.com' // Production frontend domain
+         
+    'https://codestack-frontend.onrender.com' // Production frontend domain
   ],
   methods: ['POST'],
 }));
