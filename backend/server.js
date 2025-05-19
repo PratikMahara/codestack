@@ -8,6 +8,6 @@ app.use(cors());
 app.use(express.json());
 app.use('/backend/contact', contactRoutes);
 
-app.listen(5000, () => {
+app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
