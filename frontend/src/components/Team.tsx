@@ -33,16 +33,18 @@ const teamMembers = {
        image: 'prabesh.jpeg'
     },
     {
-      name: 'Aayush Sah',
+      name: 'Roshan Thapa',
       position: 'Developer',
+      image:'Roshan Thapa.jpg'
     },
-    {
-      name: 'Anurag Sharma',
-      position: 'Developer',
-    }
+ 
   ],
   interns: [
-   
+    {
+      name:'Sagar Ramrudri',
+      position:'Intern',
+      image:'Sagar Ramrudri.jpg'
+    }
   ]
 };
 
