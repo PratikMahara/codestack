@@ -43,7 +43,7 @@ const teamMembers = {
     {
       name:'Sagar Ramrudri',
       position:'Intern',
-      image:'Sagar Ramrudri.jpg'
+      image:'Sagar Ramrudri.png'
     }
   ]
 };
