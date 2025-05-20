@@ -42,18 +42,7 @@ const teamMembers = {
     }
   ],
   interns: [
-    {
-      name: 'Ram Khelawan',
-      position: 'Intern',
-    },
-    {
-      name: 'Biswajit Sahoo',
-      position: 'Intern',
-    },
-    {
-      name: 'Saurabh Bilgaiyan',
-      position: 'Intern',
-    }
+   
   ]
 };
 
