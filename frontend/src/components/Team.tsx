@@ -4,18 +4,18 @@ import React from 'react';
 const teamMembers = {
   mentors: [
     {
-      name: 'Bikas Bhandari',
+      name: 'Er. Bikas Bhandari',
       position: 'Mentor',
       image: 'Bikash.jpeg'
     },
     {
-      name: 'Bechu Pandit',
+      name: 'Er. Bechu Pandit',
       position: 'Mentor',
        image: 'bechu.jpeg'
     }
     ,
     {
-      name:'Er.Jeevan Acharya',
+      name:'Er. Jeevan Acharya',
       position:'Structural Engineer(Mentor)',
       image:'jeevan.jpeg'
 
@@ -23,14 +23,14 @@ const teamMembers = {
   ],
   leadership: [
     {
-      name: 'Biplav Acharya',
+      name: 'Er. Biplav Acharya',
       position: 'CEO & Managing Director',
        image: 'biplav.jpeg'
     }
   ],
   developers: [
     {
-      name: 'Pratik Mahara',
+      name: 'Er. Pratik Mahara',
       position: 'Senior Developer & Project Head',
        image: 'me.jpg'
     },
