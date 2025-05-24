@@ -13,6 +13,13 @@ const teamMembers = {
       position: 'Mentor',
        image: 'bechu.jpeg'
     }
+    ,
+    {
+      name:'Er.Jeevan Acharya',
+      position:'Structural Engineer(Mentor)',
+      image:'jeevan.jpeg'
+
+    }
   ],
   leadership: [
     {
