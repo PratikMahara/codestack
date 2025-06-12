@@ -108,7 +108,7 @@ const ClientCard: React.FC<{ client: Client; index: number }> = ({ client, index
 
 const ClientsSection: React.FC = () => {
   return (
-    <section className="py-16 bg-zinc-900 relative overflow-hidden">
+    <section className="py-20 bg-zinc-900 relative overflow-hidden">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{
