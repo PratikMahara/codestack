@@ -8,6 +8,7 @@ import Works from '@/components/Works';
 import Contact from '@/components/Contact';
 import FindUs from '@/components/FindUs';
 import Footer from '@/components/Footer';
+import Client from '@/components/Client';
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
       <Works />
       <Contact />
       <FindUs />
+      <Client/>
       <Footer />
     </div>
   );
