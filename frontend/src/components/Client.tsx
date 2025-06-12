@@ -1,6 +1,6 @@
 import React from 'react';
-import { Star, Quote } from 'lucide-react';
-
+import { Star, Quote, Contact } from 'lucide-react';
+import { Link } from 'react-router-dom';
 interface Client {
   id: number;
   name: string;
@@ -14,39 +14,39 @@ interface Client {
 const clients: Client[] = [
   {
     id: 1,
-    name: "Sarah Chen",
-    position: "CEO",
-    company: "TechFlow Solutions",
-    review: "Working with this team has been transformative for our business. Their attention to detail and innovative approach exceeded all expectations.",
+    name: "Hemraj Magar",
+    position: "Project Manager",
+    company: "Gorkha Construction and Consultants",
+    review: "CodeStack delivered a high-quality construction management system tailored to our needs. Their team was professional, efficient, and exceeded our expectations.",
     rating: 5,
-    avatar: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400"
+    avatar: "./gorkha.jpeg"
   },
   {
     id: 2,
-    name: "Marcus Rodriguez",
-    position: "CTO",
-    company: "InnovateHub",
-    review: "Outstanding technical expertise and professionalism. They delivered solutions we didn't even know we needed.",
+    name: "",
+    position: "Founder",
+    company: "Smile Garden Dental Clinic",
+    review: "We're extremely satisfied with the appointment booking and patient record system developed by CodeStack. It has significantly improved our workflow and patient experience.",
     rating: 5,
-    avatar: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=400"
+    avatar: "./clinic.jpeg"
   },
   {
     id: 3,
-    name: "Emily Watson",
-    position: "Founder",
-    company: "GreenEarth Ventures",
-    review: "Exceptional service from start to finish. Our project was delivered on time and under budget with remarkable quality.",
+    name: "Raj Sharma",
+    position: "Manager",
+    company: "Hotel Aashraya",
+    review: "The online booking and hotel management system created by CodeStack was exactly what we needed. Smooth design, user-friendly interface, and excellent support.",
     rating: 5,
-    avatar: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400"
+    avatar: "./aashraya.jpeg"
   },
   {
     id: 4,
-    name: "David Park",
-    position: "Director",
-    company: "Streamline Analytics",
-    review: "Their strategic approach revolutionized our workflow and improved our efficiency by 250%. Truly game-changing.",
+    name: "",
+    position: "Owner",
+    company: "Classic Wear",
+    review: "CodeStack built a modern, easy-to-manage eCommerce platform for our clothing store. Their team delivered on time and provided great post-launch support.",
     rating: 5,
-    avatar: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400"
+    avatar: "./classicwear.jpeg"
   }
 ];
 
@@ -123,8 +123,7 @@ const ClientsSection: React.FC = () => {
             What Our Clients Say
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Don't just take our word for it. Here's what industry leaders have to say about working with us.
-          </p>
+“Don’t just take our word for it — here’s what our clients say after receiving their custom-built solutions from CodeStack.”          </p>
           <div className="mt-6 w-20 h-1 bg-gradient-to-r from-amber-400 to-orange-400 mx-auto rounded-full"></div>
         </div>
 
@@ -136,13 +135,16 @@ const ClientsSection: React.FC = () => {
 
         <div className="text-center">
           <div className="bg-gradient-to-r from-amber-600 to-orange-600 rounded-xl p-8 text-white shadow-2xl border border-zinc-700/30">
-            <h3 className="text-2xl font-bold mb-3">Ready to Join Our Success Stories?</h3>
+            <h3 className="text-2xl font-bold mb-3">Ready to Build Your Own Success Story with CodeStack?</h3>
             <p className="text-lg opacity-90 mb-6">
-              Let's work together to create something extraordinary.
+              Let’s build a product that sets your brand apart.
             </p>
-            <button className="bg-white text-zinc-900 font-bold py-3 px-6 rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg">
-              Get Started Today
-            </button>
+      <Link to="/contact">
+  <button className="bg-white text-zinc-900 font-bold py-3 px-6 rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg">
+    Get Started Today
+  </button>
+</Link>
+          
           </div>
         </div>
       </div>

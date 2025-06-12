@@ -26,14 +26,20 @@ const teamMembers = {
       name: 'Er. Biplav Acharya',
       position: 'CEO & Managing Director',
        image: 'biplav.jpeg'
-    }
-  ],
-  developers: [
-    {
+    },
+     {
       name: 'Er. Pratik Mahara',
-      position: 'Senior Developer & Project Head',
+      position: 'Project Head & Senior Developer',
        image: 'me.jpg'
     },
+  ],
+  developers: [
+      {
+      name:'Pratik Poudel',
+      position:'Junior Cybersecurity Analyst ',
+      image:'poudel.jpeg'
+    },
+   
     {
       name: 'Prabesh Bhandari',
       position: 'Developer',
@@ -44,13 +50,47 @@ const teamMembers = {
       position: 'Developer',
       image:'Roshan Thapa.jpg'
     },
- 
+
+ {
+      name:'Sagar Ramrudri',
+      position:'Developer',
+      image:'Sagar Ramrudri.png'
+    },
+     {
+      name:'Rajan',
+      position:'Developer',
+      image:'rajan.jpg'
+    },
+    {
+      name:'Bibek Singh',
+      position:'Developer',
+      image:'Bibek.jpeg'
+    }
+    ,
+    {
+      name:'Aaditya Kc',
+      position:'Developer',
+      image:'Aaditya.jpeg'
+    },  {
+      name:'Bihbab Dahal',
+      position:'Developer',
+      image:''
+    },
+      {
+      name:'Bishal Sharma',
+      position:'Developer',
+      image:''
+    }
   ],
   interns: [
-    {
-      name:'Sagar Ramrudri',
+      {
+      name:'Binita',
       position:'Intern',
-      image:'Sagar Ramrudri.png'
+      image:'binita.jpeg'
+    },{
+      name:'Ramesh Sharma',
+      position:'Intern',
+      image:''
     }
   ]
 };
