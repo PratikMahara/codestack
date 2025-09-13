@@ -22,11 +22,7 @@ const teamMembers = {
     }
   ],
   leadership: [
-    {
-      name: 'Er. Biplav Acharya',
-      position: 'CEO & Managing Director',
-       image: 'biplav.jpeg'
-    },
+   
      {
       name: 'Er. Pratik Mahara',
       position: 'Project Head & Senior Developer',
@@ -34,6 +30,11 @@ const teamMembers = {
     },
   ],
   developers: [
+     {
+      name: 'Er. Biplav Acharya',
+      position: 'MERN Developer',
+       image: 'biplav.jpeg'
+    },
       {
       name:'Pratik Poudel',
       position:'Junior Cybersecurity Analyst ',
