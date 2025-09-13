@@ -16,7 +16,7 @@ const teamMembers = {
     ,
     {
       name:'Er. Jeevan Acharya',
-      position:'Structural Engineer(Mentor)',
+      position:'CEO & Structural Engineer(Mentor) ',
       image:'jeevan.jpeg'
 
     }
@@ -24,14 +24,14 @@ const teamMembers = {
   leadership: [
    
      {
-      name: 'Er. Pratik Mahara',
+      name: 'Pratik Mahara',
       position: 'Project Head & Senior Developer',
        image: 'me.jpg'
     },
   ],
   developers: [
      {
-      name: 'Er. Biplav Acharya',
+      name: ' Biplav Acharya',
       position: 'MERN Developer',
        image: 'biplav.jpeg'
     },
